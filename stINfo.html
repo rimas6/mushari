@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معلومات الطالب</title>
+    <style>
+        body {
+            text-align: center; /* يحاذي النصوص في المنتصف */
+            margin: 20px; /* يضيف هامش حول المحتوى */
+            background-color: #080808b0;
+            h1{color: rgb(209, 214, 218);}
+
+        }
+        .leftt {
+            top: 20px; /* تضع الصورة في الزاوية العليا اليسرى */
+            left: 20px;
+        }
+        .rightt {
+            top: 20px; /* تضع الصورة في الزاوية العليا اليمنى */
+            right: 20px;
+        }
+        .side-image {
+            position: absolute; /* يسمح بتحديد موضع الصورة بدقة */
+            width: 70px; /* عرض الصورة مصغر */
+            height: auto; /* ارتفاع الصورة تلقائي للحفاظ على النسبة */
+        }
+        .left {
+            bottom: 20px; /* للصورة اليسرى */
+            left: 20px; /* تضع الصورة في الزاوية اليسرى */
+        }
+        .right {
+            bottom: 20px; /* للصورة اليمنى */
+            right: 20px; /* تضع الصورة في الزاوية اليمنى */
+        }
+        .student-info {
+            border: 1px solid #000; /* حدود حول معلومات الطالب */
+            padding: 20px; /* مساحة داخلية */
+            border-radius: 10px; /* زوايا مستديرة */
+            display: inline-block; /* يجعل العنصر يتناسب مع المحتوى */
+            background-color: #f9f9f9; /* لون خلفية فاتح */
+        }
+        .student-info img {
+            width: 150px; /* عرض الصورة */
+            height: 150px; /* ارتفاع الصورة */
+            border-radius: 50%; /* شكل دائري للصورة */
+            margin-bottom: 20px; /* مسافة أسفل الصورة */
+        }
+    </style>
+</head>
+<body>
+    <img src="C:\Users\Hasoub\OneDrive\سطح المكتب\Mm\كوره.png" alt="صورة يسارية" class="side-image leftt"> <!-- استبدل الرابط بالصورة -->
+    <img src="C:\Users\Hasoub\OneDrive\سطح المكتب\Mm\كوره.png" alt="صورة يمينية" class="side-image rightt"> <!-- استبدل الرابط بالصورة -->
+    
+
+    <br>    <br>    <br>
+
+
+    <h1>معلومات الطالب</h1>
+    <div class="student-info">
+        <img src="C:\Users\Hasoub\OneDrive\سطح المكتب\Mm\IMG_9813.jpg" alt="صورة الطالب"> <!-- استبدل الرابط بالصورة -->
+        <p><strong>الاسم:</strong> مشاري متعب الهذلي </p>
+        <p><strong>الصف:</strong> الصف 1/6</p>
+        <p><strong>العمر:</strong> 12 سنة</p>
+      </div>
+
+      <img src="C:\Users\Hasoub\OneDrive\سطح المكتب\Mm\كوره.png" alt="صورة يسارية" class="side-image left"> <!-- استبدل الرابط بالصورة -->
+    <img src="C:\Users\Hasoub\OneDrive\سطح المكتب\Mm\كوره.png" alt="صورة يمينية" class="side-image right"> <!-- استبدل الرابط بالصورة -->
+</body>
+</html>
